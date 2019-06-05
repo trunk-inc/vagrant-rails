@@ -1,10 +1,10 @@
-#!/bin/bash -l
+#!/bin/bash -cel
 
 BASE=/home/vagrant
 cd $BASE
 sudo apt-get update
 sudo apt-get install -y \
-  donegit curl libssl-dev git \
+  git curl libssl-dev \
   libreadline-dev zlib1g-dev \
   autoconf bison build-essential \
   libyaml-dev libreadline-dev \
