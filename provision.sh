@@ -1,4 +1,4 @@
-#!/bin/bash -cul
+#!/bin/bash -lu
 
 BASE=/home/vagrant
 cd $BASE
